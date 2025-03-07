@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmdb-app"
+version = "0.0.1"
+description = "Simple CLI application written from python for fetch data from TMDB"
+readme = "README.md"
+authors = [{ name = "Trishan Fernando", email = "sanjanatrishan@gmail.com" }]
+
+
+[project.scripts]
+tmdb-app = "tmdb_cli_tool.tmdb:main"
