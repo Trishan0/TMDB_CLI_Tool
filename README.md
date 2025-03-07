@@ -116,7 +116,7 @@ tmdb-app type upcoming
     pip install -e .
     ```
 
-### Usage
+## Usage
 
 The TMDB CLI Tool supports the following commands:
 
@@ -140,7 +140,9 @@ The TMDB CLI Tool supports the following commands:
     tmdb-app type upcoming
     ```
 
-### API Response Format
+Original Project Link: [TMDB CLI Tool](https://roadmap.sh/projects/tmdb-cli-tool)
+
+## API Response Format
 
 The tool processes JSON responses from the TMDB API in the following format:
 
